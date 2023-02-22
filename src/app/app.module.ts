@@ -10,6 +10,7 @@ import { HeaderNavComponent } from './components/app-header/header-nav/header-na
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { NewWordsComponent } from './components/new-words/new-words.component';
 import { PageNowFoundComponent } from './components/page-now-found/page-now-found.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { PageNowFoundComponent } from './components/page-now-found/page-now-foun
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MaterialModule
+    MaterialModule,
+    NgbModule
   ],
   providers: [
 
