@@ -1,0 +1,9 @@
+<footer class="footer">
+  <nav class="footer-nav">
+    <ul class="list list--nav">
+      <li *ngFor="let link of links">
+        <a [href]="link.href">{{link.label}}</a>
+      </li>
+    </ul>
+  </nav>
+</footer>

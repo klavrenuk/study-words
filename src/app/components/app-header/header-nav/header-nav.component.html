@@ -1,5 +1,5 @@
-<nav>
-  <ul>
+<nav class="header_nav">
+  <ul class="header_nav-list mb-0 list list--nav">
     <li>
       <a *ngFor="let route of appRoutes.getNavMenuRoutes()"
         [routerLink]="'/' + route.path" routerLinkActive="active" ariaCurrentWhenActive="page"
