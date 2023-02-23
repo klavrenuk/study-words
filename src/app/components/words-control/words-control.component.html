@@ -1,0 +1,15 @@
+<div class="words_control">
+  <div class="words_control">
+    <button class="btn btn-primary" (click)="add()">+ ADD</button>
+    <button class="btn btn-primary" (click)="save()">Save</button>
+  </div>
+
+  <div class="words_control">
+    <ul>
+      <li *ngFor="let word of words">
+        <span>{{word.name}}</span>
+        <button class="btn btn-icon" (click)="remove(word)">REmove</button>
+      </li>
+    </ul>
+  </div>
+</div>

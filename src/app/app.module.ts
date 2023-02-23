@@ -12,6 +12,7 @@ import { NewWordsComponent } from './components/new-words/new-words.component';
 import { PageNoFoundComponent } from './components/page-no-found/page-no-found.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FooterComponent } from './components/footer/footer.component';
+import { WordsControlComponent } from './components/words-control/words-control.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { FooterComponent } from './components/footer/footer.component';
     DashboardComponent,
     NewWordsComponent,
     PageNoFoundComponent,
-    FooterComponent
+    FooterComponent,
+    WordsControlComponent
   ],
   imports: [
     BrowserModule,
