@@ -11,6 +11,7 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { NewWordsComponent } from './components/new-words/new-words.component';
 import { PageNoFoundComponent } from './components/page-no-found/page-no-found.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     HeaderNavComponent,
     DashboardComponent,
     NewWordsComponent,
-    PageNoFoundComponent
+    PageNoFoundComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

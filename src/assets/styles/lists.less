@@ -1,0 +1,21 @@
+ul {
+  list-style: none;
+
+  &.list {
+    margin-bottom: 0;
+    overflow: hidden;
+
+    &--nav {
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      & a {
+        padding: 0 .5rem;
+        display: inline-block;
+        transition: all 0.3s;
+      }
+    }
+  }
+}

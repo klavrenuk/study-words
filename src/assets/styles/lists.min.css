@@ -1,1 +1,1 @@
-ul{list-style:none}ul.list--nav{height:100%;display:flex;align-items:center;justify-content:center}ul.list--nav a{padding:0 .5rem;transition:all .3s}
+ul{list-style:none}ul.list{margin-bottom:0;overflow:hidden}ul.list--nav{height:100%;display:flex;align-items:center;justify-content:center}ul.list--nav a{padding:0 .5rem;display:inline-block;transition:all .3s}
