@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { IRoute } from 'src/app/models/IRouting';
+import AppRoutes from '../../../modules/Routes'
 
 @Component({
   selector: 'app-header-nav',
@@ -7,5 +7,5 @@ import { IRoute } from 'src/app/models/IRouting';
   styleUrls: ['./header-nav.component.less']
 })
 export class HeaderNavComponent {
-  routers:IRoute[] = [];
+  protected appRoutes = AppRoutes;
 }

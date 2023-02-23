@@ -1,9 +1,11 @@
 <nav>
   <ul>
     <li>
-      <!-- <a routerLink="/new-words" routerLinkActive="active" ariaCurrentWhenActive="page">
-        New words
-      </a> -->
+      <a *ngFor="let route of appRoutes.getNavMenuRoutes()"
+        [routerLink]="'/' + route.path" routerLinkActive="active" ariaCurrentWhenActive="page"
+        >
+        {{ route.title }}
+      </a>
     </li>
   </ul>
 </nav>

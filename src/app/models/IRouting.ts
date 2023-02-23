@@ -1,4 +1,8 @@
+import { Component } from "@angular/core";
+
 export interface IRoute {
   path: string,
-  name: string
+  title?: string,
+  component: any,
+  isShowNav?: true
 }

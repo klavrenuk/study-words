@@ -9,7 +9,7 @@ import { AppHeaderComponent } from './components/app-header/app-header.component
 import { HeaderNavComponent } from './components/app-header/header-nav/header-nav.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { NewWordsComponent } from './components/new-words/new-words.component';
-import { PageNowFoundComponent } from './components/page-now-found/page-now-found.component';
+import { PageNoFoundComponent } from './components/page-no-found/page-no-found.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
@@ -19,7 +19,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     HeaderNavComponent,
     DashboardComponent,
     NewWordsComponent,
-    PageNowFoundComponent
+    PageNoFoundComponent
   ],
   imports: [
     BrowserModule,

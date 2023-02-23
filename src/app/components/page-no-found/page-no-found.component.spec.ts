@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PageNowFoundComponent } from './page-now-found.component';
+import { PageNowFoundComponent } from './page-no-found.component';
 
 describe('PageNowFoundComponent', () => {
   let component: PageNowFoundComponent;
