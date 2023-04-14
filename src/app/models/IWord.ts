@@ -1,4 +1,5 @@
 export interface IWord {
   _id: number,
-  name: string
+  name: string,
+  values: string[]
 }

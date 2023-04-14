@@ -1,0 +1,23 @@
+<div class="modal_words modal">
+  <div class="modal-header">
+    <div class="flex items-center justify-beetween">
+      <h3>Words</h3>
+      <button class="modal-header-close">CLose</button>
+    </div>
+  </div>
+
+  <div class="modal-body">
+    <ul class="list_words">
+      <li *ngFor="let word of words">
+        <app-modal-word-item></app-modal-word-item>
+      </li>
+    </ul>
+  </div>
+
+  <div class="modal-footer">
+    <div class="flex items-center justify-beetween">
+      <button class="modal-footer-cancel">Cancel</button>
+      <button class="modal-footer-save">Save</button>
+    </div>
+  </div>
+</div>

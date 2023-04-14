@@ -13,6 +13,8 @@ import { PageNoFoundComponent } from './components/page-no-found/page-no-found.c
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { FooterComponent } from './components/footer/footer.component';
 import { WordsControlComponent } from './components/words-control/words-control.component';
+import { ModalWordsComponent } from './components/modal-words/modal-words.component';
+import { ModalWordItemComponent } from './components/modal-words/modal-word-item/modal-word-item.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { WordsControlComponent } from './components/words-control/words-control.
     NewWordsComponent,
     PageNoFoundComponent,
     FooterComponent,
-    WordsControlComponent
+    WordsControlComponent,
+    ModalWordsComponent,
+    ModalWordItemComponent
   ],
   imports: [
     BrowserModule,

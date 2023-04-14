@@ -9,6 +9,7 @@ import { IWord } from 'src/app/models/IWord';
 })
 export class WordsControlComponent {
   words:IWord[] = [];
+  isShowModalWords:boolean = false;
 
   save() {
     console.log('save');
@@ -16,6 +17,7 @@ export class WordsControlComponent {
 
   add() {
     console.log('add');
+    this.isShowModalWords = true;
   }
 
   remove(word:IWord) {
