@@ -1,0 +1,19 @@
+@import 'config.less';
+
+.btn {
+  height: 40px;
+  padding: 0 15px;
+  border: none;
+  border-radius: @borderRadius;
+  font-size: @fontSizeDefault;
+
+  &.primary {
+    color: @blackDefault;
+    background: @yellowColor;
+    transition: background-color .15s linear;
+
+    &:hover, &:active {
+      background: @yellowDark;
+    }
+  }
+}

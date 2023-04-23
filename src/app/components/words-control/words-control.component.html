@@ -1,7 +1,7 @@
 <div class="words_control">
   <div class="words_control">
-    <button class="btn btn-primary" (click)="add()">+ ADD</button>
-    <button class="btn btn-primary" (click)="save()">Save</button>
+    <button class="btn primary" (click)="add()">+ ADD</button>
+    <button class="btn primary" (click)="save()">Save</button>
   </div>
 
   <div class="words_control">
@@ -15,4 +15,6 @@
 </div>
 
 
-<app-modal-words ngIf="isShowModalWords"></app-modal-words>
+<ng-template [ngIf]="isShowModalWords">
+  <app-modal-words></app-modal-words>
+</ng-template>

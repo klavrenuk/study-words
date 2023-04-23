@@ -1,6 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif&display=swap');
+
+@import './assets/styles/config.less';
 @import './assets/styles/links.less';
 @import './assets/styles/lists.less';
+@import './assets/styles/buttons.less';
 
 html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  font-size: @fontSizeDefault;
+  font-family: 'Instrument Serif', serif;
+  line-height: 120%;
+}
+
+::selection {
+  padding: .8rem;
+  color: @blackDefault;
+  background: @yellowColor;
+}
